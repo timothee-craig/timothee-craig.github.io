@@ -60,14 +60,19 @@ h1{
 }
 
 .col2{
-    margin-left: 20%;
-    margin-top: 5%;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
-    -moz-column-count: 2;
-    -moz-column-gap: 10px;
-    column-count: 2;
-    column-gap: 10px;
+    width: 65%;
+    margin: auto;
+}
+
+.contact{
+    float: left;
+    margin: auto;
+    
+}
+
+.projects{
+    float: right;
+    margin: auto;
 }
 
 ul{
