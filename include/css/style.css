@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 juil. 2015, 18:54:24
+    Author     : Timothee
+*/
+body {
+    background-image:url('../img/bg.png');
+}
+
+.header>h1{
+    font-size:5em;
+    text-align: center;
+    
+}
+
+.header>h2{
+    margin-top: -20px;
+    font-size: 2em;
+}
+
+h2{
+   color: #FFFFFF;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+h1{
+    color: #F0F0F0;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 1.5em;
+}
+
+
+
+.main-container{
+    height: 650px;
+    width: 60%;
+    position: absolute;
+    border: 1px solid black;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 70%;
+    background-color: rgba(128,128,128,0.6);
+}
+
+.contact{
+    width: 50%;
+    margin-left: 15%;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 3%;
+}
+
+.projects{
+    width: 50%;
+    margin-left: 60%;
+    margin-right: 0%;
+    position: absolute;
+    margin-top: 3%;
+}
+
+ul{
+    list-style-type: circle;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+li{
+    margin-bottom:.6em;
+}
+
+a{
+    color: #D8D8D8;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    font-size: 1.2em;
+}
